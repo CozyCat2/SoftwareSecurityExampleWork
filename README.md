@@ -1,2 +1,7 @@
-# SoftwareSecurityExampleWork
-Example work from my Software Security college course at SHNU
+# Software Security Example Work
+
+Artemis Financial, the pretend client for this project, wanted to expand into an online presence with a web application. Since they are a financial institution, this application comes with a lot of security concerns and requirements. I feel that I did well implementing security at every level of the project process instead of reflectinb back and hot-fixing at the end. It's important to code securely starting from the beginning because you're able to implement secure code into the design of the project instead of having to force-fit it in at the end, potentially leading to less secure code. Secure code also ensures that the company's data, employees, and money are all safe from potential attackers.
+
+In this course we were given a pdf with a workflow of places to check for security vulnerabilities as a way of manually testing the security of a project. The workflow diagramed on the PDF was very helpful in knowing where to look for potential security flaws and it's definitely something I'll use in the future. A lot of increasing security through the work flow is correct error handling, making sure external sources of information is cleaned and limited, and limiting account access to least access necessary. 
+
+We also used the OWASP static vulnerability checker to make sure our projects didn't have any known vulnerabilities that we needed to fix. If there were vulnerabilities that either we couldn't fix or were flase positives, we were able to supress those warnings as well. We used this tool before and after secure code refactoring. Xome more examples of work I might show to future employers that illustrates the secure code practices I learned would be the Java Spring code bases we used to implement secure programming.
